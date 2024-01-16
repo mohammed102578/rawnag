@@ -1,0 +1,62 @@
+
+
+html{
+    direction: rtl;
+}
+.bootstrap-select > .dropdown-toggle.bs-placeholder, .bootstrap-select > .dropdown-toggle.bs-placeholder:active, .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
+    color: #999;
+    width: 100%;
+    padding: 13px;
+    margin: 0px;
+  }
+  .bootstrap-select > .dropdown-toggle {
+    margin: 0px;
+    height: 50px;
+  }
+.w3sidebar{
+
+    height: 100%;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+    width: 22%;
+    left: 0px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 10px;
+  }
+
+.middlebar {
+    width: 61%;
+    margin: auto;
+    margin-right: auto;
+    margin-right: 222px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+}
+.sidebar {
+    right: 0px;
+    border: 0;
+    border-radius: 10px;
+    margin:10px 10px 10px 10px;
+    box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+
+}
+.w3-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+    right: 0;
+  }
+@media screen and (max-width:1350px) {
+    .middlebar{
+    background-color: #000;
+    }
+  }
